@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>All products - Prime Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <div class="container">
+            <div class="trangchu">
+                <div class="logo">
+                    <a href="index.html"><img src="images/201.png" width="125px"></a>
+                </div>
+                <danhsach>
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="product.html">Sản phẩm</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100073951821376">Liên hệ</a></li>
+                    </ul>
+                </danhsach>
+            </div>
+        </div>
+
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/product-5.jpg" width="455px" height="550px" id="ProductImg">
+
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="images/galery5-1.jpg" width="95px" height="120px" class="SmallImg">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/galery5-2.jpg" width="95px" height="120px" class="SmallImg">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/galery53.jpg" width="95px" height="120px" class="SmallImg">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/product-5.jpg" width="95px" height="120px" class="SmallImg">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <h1>Sét bò 2 dây hàng QC</h1>
+                    <h4>Giá : XXX</h4>
+                    <h3>Thông tin sản phẩm <i class="fa fa-indent"></i> </h3>
+                    <p>
+                        ‼️‼️Sét bò 2 dây hàng QC , chất bò mềm nhẹ ạ<br>
+                        2 màu ML 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="small-container">
+            
+            <div class="row">
+                <div class="col-4">
+                    <a href="redmi-12-pro.html">
+                        <img src="images/product-9.jpg">
+                        <h4>2 dây caro tà dài</h4>
+                        <div class="danhgia">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="realme-11-pro.html">
+                        <img src="images/product-10.jpg">
+                        <h4>Set 3 món nâu tây siu xinh</h4>
+                        <div class="danhgia">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="samsung-a53.html">
+                        <img src="images/product-11.jpg">
+                        <h4>VÁY TAY HẾN CỔ SOMI CHÂN BÍ</h4>
+                        <div class="danhgia">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="smart-watch.html">
+                        <img src="images/product-12.jpg">
+                        <h4>Set váy quây kẻ</h4>
+                        <div class="danhgia">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-2">
+                        <img src="images/201.png">
+                        <p>
+                            Mục đích của chúng tôi là đem đến sự thông minh và tiện lợi cho người dùng
+                        </p>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Theo dõi chúng tôi</h3>
+                        <ul>
+                            <a href="https://www.facebook.com/profile.php?id=100073951821376"><li>Facebook</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="banquyen">Bản quyền thuộc về 201 STORE</p>
+            </div>
+        </div>
+        <script>
+
+            var ProductImg = document.getElementById("ProductImg");
+            var SmallImg = document.getElementsByClassName("SmallImg");
+
+            SmallImg[0].onclick = function()
+                {
+                    ProductImg.src = SmallImg[0].src;
+                }
+            SmallImg[1].onclick = function()
+                {
+                    ProductImg.src = SmallImg[1].src;
+                }
+            SmallImg[2].onclick = function()
+                {
+                    ProductImg.src = SmallImg[2].src;
+                }
+            SmallImg[3].onclick = function()
+                {
+                    ProductImg.src = SmallImg[3].src;
+                }
+        </script>
+
+</body>
+
+</html>
